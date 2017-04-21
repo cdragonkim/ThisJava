@@ -16,5 +16,4 @@ public class ByteExample {
 		System.out.println(var4);
 		System.out.println(var5);
 	}
-
 }
