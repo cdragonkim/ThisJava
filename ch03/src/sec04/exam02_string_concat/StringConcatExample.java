@@ -10,7 +10,7 @@ public class StringConcatExample {
 		String str3 = "JDK" + 3 + 3.0;
 		System.out.println(str3);
 		
-		String str4 = 3 + 3.0 + "JDK";
+		String str4 = 3 + 3.0 + "JDK1111";
 		System.out.println(str4);
 	}
 
