@@ -7,7 +7,7 @@ public class IfDiceExample {
 		int num = (int)(Math.random()*6 + 1);
 		
 		if(num==1) {
-			System.out.println("1번이 나왔습니다.");
+			System.out.println("1번 나왔습니다.");
 		} else if(num==2) {
 			System.out.println("2번이 나왔습니다.");
 		} else if(num==3) {

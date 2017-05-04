@@ -21,7 +21,7 @@ public class IfNestedExample {
 				grade = "B";
 			}
 		}
-		System.out.println(grade);
+		System.out.println("등급 : " + grade);
 	}
 
 }

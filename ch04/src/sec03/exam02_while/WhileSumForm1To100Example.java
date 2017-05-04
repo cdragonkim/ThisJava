@@ -10,6 +10,6 @@ public class WhileSumForm1To100Example {
 			sum += i;
 			i++;
 		}
-		System.out.println("1 ~ " + (i-1) + "까지의 합 =" + sum);
+		System.out.println("1 ~ " + (i-1) + "까지 의 합 =" + sum);
 	}
 }

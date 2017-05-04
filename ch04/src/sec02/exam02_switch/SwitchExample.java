@@ -23,7 +23,7 @@ public class SwitchExample {
 			break;
 		default:
 			System.out.println("6");
-			break;
+			//break;
 		} 
 
 	}

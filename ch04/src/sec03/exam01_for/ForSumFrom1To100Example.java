@@ -17,7 +17,7 @@ public class ForSumFrom1To100Example {
 			sum += i1;
 		}
 		
-		System.out.println("1 ~ " + i1 + "까지의 합 : " + sum);
+		System.out.println("1 ~ " + i1 + "까지 의 합 : " + sum);
 		
 	}
 

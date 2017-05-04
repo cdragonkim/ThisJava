@@ -6,7 +6,7 @@ public class IfExample {
 		int score =93;
 		
 		if(score >= 90) {
-			System.out.println("점수가 90점 보다 큽니다.");
+			System.out.println("점수가 90 점  보다 큽니다.");
 			System.out.println("등급은 A 입니다..");
 		}
 		

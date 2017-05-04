@@ -6,7 +6,7 @@ public class WhilePrintFrom1To10Example {
 		int i = 1;
 		
 		while(i<=10) {
-			System.out.println(i);
+			System.out.println("값 : " + i);
 			i++;
 		}
 

@@ -7,7 +7,7 @@ public class SwitchStringExample {
 		
 		switch(position) {
 			case "부장":
-				System.out.println("700만원");
+				System.out.println("700 만원");
 				break;
 			case "과장":
 				System.out.println("600만원");

@@ -9,9 +9,9 @@ public class WhileKeyControlExample {
 		
 		while(run) {
 			if(keyCode !=13 && keyCode != 10){
-				System.out.println("---------------------");
+				System.out.println("----------------------");
 				System.out.println("1.중속 | 2.감속 | 3.중지");
-				System.out.println("---------------------");
+				System.out.println("----------------------");
 				System.out.print("Select: ");
 			}
 			
