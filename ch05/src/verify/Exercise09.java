@@ -43,7 +43,7 @@ public class Exercise09 {
 				System.out.println("최고 점수 = " + max);
 				System.out.println("평균 점수 = " + avg);	
 			} else if(selectNo == 5) {
-				run = false;
+				run = false; 
 			}
 		}
 		
