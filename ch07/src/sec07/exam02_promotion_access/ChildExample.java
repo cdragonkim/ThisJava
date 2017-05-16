@@ -9,6 +9,7 @@ public class ChildExample {
 		
 		parent.method1();
 		parent.method2();
+//		parent.method3();
 	}
 
 }
