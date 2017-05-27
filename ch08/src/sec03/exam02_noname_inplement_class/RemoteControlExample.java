@@ -1,0 +1,38 @@
+package sec03.exam02_noname_inplement_class;
+
+import sec03.exam01_name_inplement_class.RemoteControl;
+
+public class RemoteControlExample {
+
+	public static void main(String[] args) {
+		RemoteControl rc = new RemoteControl() {
+
+			private int volume;
+				
+			@Override
+			public void turnOn() {
+				System.out.println("TV를 켭니다.");
+			}
+	
+			@Override
+			public void turnOff() {
+				System.out.println("TV를 니다.");
+			}
+	
+			@Override
+			public void setVolume(int volume) {
+				if(volume > RemoteControl.MAX_VOLUME) {
+					this.volume = RemoteControl.MAX_VOLUME;
+				} else if(volume < RemoteControl.MIN_VOLUME) {
+					this.volume = RemoteControl.MIN_VOLUME;
+				} else {
+					this.volume = volume;
+				}
+				System.out.println("현재 TV 볼륨: " + this.volume);
+			}
+			public void otherMethod() { /* */ }
+		};
+		
+	}
+
+}
